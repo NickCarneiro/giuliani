@@ -1,0 +1,30 @@
+button {
+	display: block;
+	height: 25px;
+	margin: 5px;
+	font-size: 16px;
+	width: 150px;
+}
+
+input {
+	display: block;
+	height: 30px;
+	width: 150px;
+	font-size: 24px;
+}
+
+#container{
+	display:inline-block;
+}
+
+body {
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#message {
+	margin: 10px;
+	font-size: 20px;
+}
+
+

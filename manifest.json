@@ -1,0 +1,23 @@
+{
+	"name": "UT Remember Password",
+	"version": "1.0.0",
+	"description": "Remember your password for anything on *.utexas.edu.",
+	"icons": { "48": "utexas-48.png", "128": "utexas.png" },
+	"options_page" : "options.html",
+	"background_page": "background.html",
+	"permissions": [
+		"http://*.utexas.edu/",
+		"http://ajax.googleapis.com"
+	], 
+	"content_scripts" : [
+    {
+      "matches" : [
+        "http://*.utexas.edu/*",
+        "https://*.utexas.edu/*"
+      ],
+      "js" : ["autocomplete.js"],
+      "run_at" : "document_end",
+      "all_frames" : false
+    }
+  ]
+}

@@ -18,12 +18,12 @@ $(function(){
 		var eid = $("#eid");
 		//if the eid input box exists, go ahead and enter credentials.
 		if(eid != null){
-			if(response.eid != undefined){
+			if(response.eid != undefined && response.eid != "undefined"){
 				
 				$(eid).val(response.eid)
 			}
 
-			if(response.password != undefined){
+			if(response.password != undefined && response.password != "undefined"){
 				$("#pw").val(response.password);
 			}
 		}	

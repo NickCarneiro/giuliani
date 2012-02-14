@@ -1,6 +1,6 @@
 {
 	"name": "giuliani",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "Remember your password for anything on *.utexas.edu.",
 	"icons": { "128": "uteid.png" },
 	"options_page" : "options.html",
